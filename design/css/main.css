@@ -106,6 +106,7 @@ p {
 #products {
 	margin-top: 60px;
 	display: flex;
+	padding-bottom: 42px;
 }
 
 .current {
