@@ -10,6 +10,7 @@ body {
 	background: url("../images/bg.jpg") fixed no-repeat;
 	background-size: cover;
 	margin: 0px;
+	height: 1400px;
 }
 
 a {
@@ -91,7 +92,6 @@ p {
 
 #present {
 	width: 900px;
-	height: 90px;
 	margin: auto;
 	text-align: center;
 	vertical-align: middle;
@@ -104,10 +104,8 @@ p {
 }
 
 #products {
-	height: 900px;
 	margin-top: 60px;
 	display: flex;
-	padding: 60px 0px 60px 0px;
 }
 
 .current {
@@ -116,5 +114,6 @@ p {
 
 .product {
 	width: 260px;
+	height: 675px;
 	margin-left: 60px;
 }
