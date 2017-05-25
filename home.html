@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<!--
+		Challenge HTML du 24 mai 2017
+		Autrice : Roxane
+		Problèmes rencontrés détaillées en commentaire des parties : Header, Main, et Articles.
+-->
+
+<html>
+	
+	
+	
+	<head>
+	
+		<title>Create Pro - The professionnal, ready-to-go solution to your everyday web needs.</title>
+		<meta charset="utf-8" />
+		<link href="design/css/main.css" type="text/css" rel="stylesheet">
+
+	</head>
+	
+	<body>
+	
+		<!-- Header : menu principal, bannière, menu client, barre sociale.
+		Mes problèmes : "resserrer" les éléments des menus, respecter les dimensions de la maquette.
+		La bannière reste très éloignée du menu principal sans que je ne sache pourquoi. -->
+		
+		
+		<header id="header">
+		
+			<!-- Menu principal -->
+			
+			<nav id="menu">
+						
+				<ul>
+					
+					<li><a href="#home" class="current">Home</a></li>
+					<li><a href="#about">About the tests</a></li>
+					<li><a href="#buy">Buy themes</a></li>
+					<li><a href="#layouts">Page layouts</a></li>
+					<li><a href="#contact">Contact us</a></li>
+						
+				</ul>
+								
+			</nav>
+		
+		
+			<!-- Bannière -->
+		
+			<div id="banner">
+			
+				<h1>Create Pro</h1>
+			
+			</div>
+			
+			<!-- Types clients -->
+			
+			<span id="clients"> Personal · Business · Organisation</span>
+		
+			<!-- Barre sociale -->
+			
+			<div id="socbar">
+			
+				<nav>
+				
+					<ul>
+				
+						<li><a href="#fb"><span class="symbol">circlefacebook</span></a></li>
+						<li><a href="#twitter"><span class="symbol">circletwitterbird</span></a></li>
+						<li><a href="#google"><span class="symbol">circlegoogleplus</span></a></li>
+						<li><a href="#pinterest"><span class="symbol">circlepinterest</span></a></li>
+						<li><a href="#youtube"><span class="symbol">circleyoutube</span></a></li>
+				
+					</ul>
+				
+				</nav>
+				
+			</div>
+		
+		</header>
+		
+		<!-- Main
+		Problème : je n'arrive pas à "arrêter" la page comme demandé. -->
+		
+		<div id="main">
+		
+			<!-- Présentation -->
+		
+			<div id="present">
+			
+				<p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				Nullam ex magna, rhoncus vel volutpat at, feugiat vel nisi. Vestibulum lobortis ex nunc, ac commodo augue malesuada vel.</strong></p>
+			
+			</div>
+		
+			<!-- Articles
+			Problème : les paragraphes ne s'alignent pas sur les titres. -->
+		
+			<section id="products">
+			
+				<article class="product">
+				
+					<span class="images">
+					
+						<img src="design/images/image1.jpg" />
+
+					</span>
+					
+					<header>
+					
+						<h3>Lorem Ipsum</h3>
+						
+						<p>Nulla cursus vel mauris id malesuada. Phasellus nulla est, molestie ut sem id, commodo auctor eros.
+						Donec ac pulvinar felis. Nunc sed risus libero. Aenean venenatis dolor a egestas posuere.
+						Phasellus sodales, nibh sit amet scelerisque pretium, ligula mauris elementum ipsum, id placerat mauris ipsum ut nulla.</p>
+					
+					</header>
+					
+				
+				</article>
+				
+				<article class="product">
+				
+					<span class="images">
+					
+						<img src="design/images/image2.jpg" />
+
+					</span>
+					
+					<header>
+					
+						<h3>Nullam congue</h3>
+						
+						<p>Nullam ex magna, rhoncus vel volutpat at, feugiat vel nisi. Vestibulum lobortis ex nunc, ac commodo augue malesuada vel.
+						Suspendisse volutpat eros lorem, id aliquet ex aliquam vehicula. Cras sed posuere mauris.
+						Ut semper, velit sed dictum malesuada, odio enim sagittis dolor, ut feugiat nisi ante sed quam. Donec porttitor feugiat dapibus.</p>
+					
+					</header>
+					
+				
+				</article>
+				
+				<article class="product">
+				
+					<span class="images">
+					
+						<img src="design/images/image3.jpg" />
+
+					</span>
+					
+					<header>
+					
+						<h3>Curabitur hendrerit</h3>
+						
+						<p>Sed est arcu, mattis in auctor eget, malesuada volutpat massa. Quisque tempus ante id molestie placerat.
+						Suspendisse gravida placerat lorem, vitae blandit dui pulvinar et. Quisque ullamcorper placerat porta.
+						Duis lacinia ligula non interdum tincidunt. Mauris ac eleifend quam, nec blandit ante. </p>
+					
+					</header>
+					
+				
+				</article>
+			
+			</section>
+			
+		</div>
+		
+	</body>
+
+</html>
