@@ -9,6 +9,7 @@
 body {
 	background: url("../images/bg.jpg") fixed no-repeat;
 	background-size: cover;
+	margin: 0px;
 }
 
 a {
@@ -22,6 +23,8 @@ a:hover{
 
 h1 {
 	font-size: 133px;
+	margin: auto;
+	padding: 49px;
 }
 
 h3 {
@@ -35,7 +38,6 @@ nav ul {
 
 nav li {
 	margin: auto;
-	text-align: center;
 }
 
 p {
@@ -48,8 +50,6 @@ p {
 #header {
 	background: black;
 	text-align: center;
-	font-size: 20 px;
-	vertical-align: middle;
 	font-family: Josefin Sans, Arial, sans-serif;
 	text-transform: uppercase;
 	width: 1020px;
@@ -57,14 +57,13 @@ p {
 }
 
 #menu {
-	height: 60px;
+	height: 50px;
 	padding: 5px;
 }
 
 #banner {
-	height: 320px;
+	height: 259px;
 	color: #cfa205;
-	padding: 5px;
 }
 
 #socbar {
@@ -96,6 +95,11 @@ p {
 	margin: auto;
 	text-align: center;
 	vertical-align: middle;
+}
+
+#present p {
+	display: block;
+	padding: 60px 20px 60px 20px;
 	border-bottom: inset silver;
 }
 
@@ -103,6 +107,7 @@ p {
 	height: 900px;
 	margin-top: 60px;
 	display: flex;
+	padding: 60px 0px 60px 0px;
 }
 
 .current {
