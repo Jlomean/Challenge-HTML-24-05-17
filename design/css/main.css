@@ -37,15 +37,10 @@ nav ul {
 	list-style-type: none;
 }
 
-nav li {
-	margin: auto;
-}
-
 p {
 	display: block;
 	margin: auto;
 	color: #7a7a7a;
-	padding: 15px;
 }
 
 #header {
@@ -62,6 +57,14 @@ p {
 	padding: 5px;
 }
 
+#menu ul {
+	padding-left: 150px;
+}
+
+#menu a {
+	margin: 0px 25px;
+}
+
 #banner {
 	height: 259px;
 	color: #cfa205;
@@ -74,8 +77,12 @@ p {
 	font-size: 40px;
 }
 
+#socbar ul {
+	padding-left: 402px;
+}
 #socbar a {
 	color: gray;
+	margin: 5px;
 }
 
 #clients {
