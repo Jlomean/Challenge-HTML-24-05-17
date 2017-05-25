@@ -74,6 +74,10 @@ p {
 	font-size: 40px;
 }
 
+#socbar a {
+	color: gray;
+}
+
 #clients {
 	color: #cfa205;
 	font-family: bitter, Times new Roman, serif;
