@@ -102,12 +102,12 @@ p {
 	margin: auto;
 	text-align: center;
 	vertical-align: middle;
+	border-bottom: inset silver;
 }
 
 #present p {
 	display: block;
 	padding: 60px 20px 60px 20px;
-	border-bottom: inset silver;
 }
 
 #products {
