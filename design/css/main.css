@@ -125,3 +125,12 @@ p {
 	height: 675px;
 	margin-left: 60px;
 }
+
+.images {
+	width: 260px;
+	height: 195px;
+}
+
+.images img {
+	width: 100%;
+}
